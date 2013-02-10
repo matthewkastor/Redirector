@@ -1,0 +1,44 @@
+
+SlimerJsRun
+	Redirects Gecko's "fake console" output to the console.
+
+Author: Matthew Christopher Kastor-Inare III
+Copyright © Atropa Inc. Intl. 2013
+☭ Hial Atropa!! ☭
+
+Usage:
+
+"SlimerJsRun.exe <script> <options>"
+Where <script> is a relative path, with respect to the current directory, 
+to the JavaScript application to run. <options> is an option as described below.
+
+
+Available options are:
+
+/initialtests                         runs initial-tests.js
+/maintests                            runs main-tests.js
+
+--cookies-file=<file>                 specifies the file name to store
+                                      the persistent Cookies
+--disk-cache=[yes|no]                 enables disk cache (default is no)
+--help or -h                          show this help
+--ignore-ssl-errors=[yes|no]          ignores SSL errors (default is no)
+--load-images=[yes|no]                load all inlined images (default is yes)
+--local-to-remote-url-access=[yes|no] allows local content to 
+                                      access remote URL (default is no)
+--max-disk-cache-size=size            limits the size of disk cache (in KB)
+--output-encoding=encoding            sets the encoding used for terminal
+                                      output (default is utf8)
+--proxy=address:port                  specifies the proxy server to use
+                                      (e.g. --proxy=192.168.1.42:8080)
+--proxy-type=[http|socks5|none]       specifies the type of the proxy
+                                      server (default is http)
+--script-encoding=encoding            sets the encoding used for the
+                                      starting script (default is utf8)
+--version or -v                       prints out the version of SlimerJS
+                                      Halts immediately
+--web-security=[yes|no]               enables web security and forbids
+                                      cross-domain XHR (default is yes)
+--config=<filename>                   load the given configuration file
+
+

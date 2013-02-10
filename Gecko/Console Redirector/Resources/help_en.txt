@@ -1,0 +1,14 @@
+
+Gecko Console Redirector
+	Redirects Gecko's "fake console" output to the console.
+
+Author: Matthew Christopher Kastor-Inare III
+Copyright © Atropa Inc. Intl. 2013
+☭ Hial Atropa!! ☭
+
+Usage:
+
+"Console Redirector.exe <args>"
+Where <args> are any of the arguments Firefox normally takes.
+See: https://developer.mozilla.org/en-US/docs/Mozilla/Command_Line_Options
+
