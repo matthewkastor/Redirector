@@ -66,7 +66,8 @@ Matthew Christopher Kastor-Inare III
 This email and any files transmitted with it are confidential, privileged, and/or otherwise protected by work-product immunity or other legal rules. This email and any files transmitted with it are intended solely for the use of the individuals or entities to whom they are addressed. If you are not the intended recipient, you are notified that disclosing, copying, distributing or taking any action in reliance on the contents of this information is strictly prohibited. If you have received this email in error, please notify Mr. Kastor immediately. Mr. Kastor accepts no liability for the content of this email or for the consequences of any actions taken on the basis of the information provided.
 
 *WARNING*: Computer viruses can be transmitted via email. The recipient should check this email and any attachments for the presence of viruses. Mr. Kastor accepts no liability for any damage caused by any virus transmitted by this email. Email transmission cannot be guaranteed to be secure or error-free, as information could be intercepted, corrupted, lost, destroyed, arrive late or incomplete, or contain viruses. Mr. Kastor, therefore, does not accept liability for any errors or omissions in the contents of this message which arise as a result of email transmission.
-Copyright notice
+
+### Copyright notice
 
 This email and its content is copyright of Matthew Kastor - © Matthew Kastor 2013. All rights reserved.
 
