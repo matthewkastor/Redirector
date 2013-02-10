@@ -15,6 +15,8 @@ Imports Redirector
 Public Class GeckoLib
     Inherits Redirector.Redirector
 
+    ' If GeckoRuntimeLocation is not specified then
+    ' we will try to find the Firefox executable
     Public Sub ConsoleRedirector(Optional ByVal GeckoRuntimeLocation As String = "", Optional ByVal args As String = "")
         Me.CheckHelpSwitch()
 
@@ -54,8 +56,16 @@ Public Class GeckoLib
         Return FirefoxLocation
     End Function
 
-    Public Function GetGeckoRuntimeLocation(pathToGeckoRuntime As String) As String
+    Public Function GetGeckoRuntimeLocation(Optional ByVal pathToGeckoRuntime As String = "") As String
         Console.WriteLine("Searching for Gecko runtime")
+        ' if the given pathToGeckoRuntime does not exist set
+        ' pathToGeckoRuntime as if it were unspecified
+        If Not File.Exists(pathToGeckoRuntime) Then
+            pathToGeckoRuntime = String.Empty
+        End If
+        ' if the path to the Gecko runtime is not specified
+        ' then we will look for firefox.exe in its default
+        ' location
         If pathToGeckoRuntime = String.Empty Then
             pathToGeckoRuntime = Me.FindFirefox()
             If pathToGeckoRuntime = String.Empty Then

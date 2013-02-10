@@ -8,9 +8,16 @@ Copyright © Atropa Inc. Intl. 2013
 
 Usage:
 
-"SlimerJsRun.exe <script> <options>"
-Where <script> is a relative path, with respect to the current directory, 
-to the JavaScript application to run. <options> is an option as described below.
+SET SLIMERJSLAUNCHER=<geckoRuntime>
+SlimerJsRun.exe <script> <options>
+
+Where <script> is a relative path, with respect to the current directory,
+to the JavaScript application to run, <options> is an option as described
+below, and <geckoRuntime> is the path to your gecko runtime.
+
+To specify the Gecko runtime used, set the environment variable
+SLIMERJSLAUNCHER to the full path to your runtime. Otherwise SlimerJs
+will try to use firefox.exe from Firefox's default install location.
 
 
 Available options are:

@@ -8,7 +8,16 @@ Copyright © Atropa Inc. Intl. 2013
 
 Usage:
 
-"Console Redirector.exe <args>"
-Where <args> are any of the arguments Firefox normally takes.
+"Console Redirector.exe <geckoRuntime> <args>"
+
+Where <geckoRuntime> is the path to xulrunner.exe, firefox.exe,
+  thunderbird.exe, or any other Gecko based application. If this
+  argument is given as "" or the path supplied is invalid then,
+  the default location for firefox.exe will be used if firefox.exe
+  exists. You must provide this argument.
+
+Where <args> are any of the arguments Firefox normally takes. This
+  argument is optional.
+
 See: https://developer.mozilla.org/en-US/docs/Mozilla/Command_Line_Options
 
