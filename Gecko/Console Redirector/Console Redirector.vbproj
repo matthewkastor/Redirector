@@ -121,6 +121,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="License\Console Redirector License.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="red-star.ico" />
     <None Include="Resources\help_en.txt" />
   </ItemGroup>

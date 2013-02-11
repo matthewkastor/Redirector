@@ -1,5 +1,5 @@
-Redirector
-	Redirects stderr and stdout for arbitrary processes.
+GeckoLib
+	Utilities for launching Gecko based applications.
 
 Author: Matthew Christopher Kastor-Inare III
 Copyright © Atropa Inc. Intl. 2013
