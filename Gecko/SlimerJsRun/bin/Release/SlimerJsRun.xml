@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SlimerJsRun
+</name>
+</assembly>
+<members>
+<member name="P:SlimerJsRun.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SlimerJsRun.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:SlimerJsRun.My.Resources.Resources.help_en">
+	<summary>
+  Looks up a localized string similar to 
+SlimerJsRun
+	Redirects Gecko's "fake console" output to the console.
+
+Author: Matthew Christopher Kastor-Inare III
+Copyright Â© Atropa Inc. Intl. 2013
+â˜­ Hial Atropa!! â˜­
+
+Usage:
+
+"SlimerJsRun.exe &lt;args&gt;"
+Where &lt;args&gt; are any of the arguments Gecko normally takes.
+See: https://developer.mozilla.org/en-US/docs/Mozilla/Command_Line_Options
+
+Available options are:
+
+--cookies-file=&lt;file&gt;                 specifies the file name to store
+                                      the persistent Coo [rest of string was truncated]";.
+</summary>
+</member><member name="T:SlimerJsRun.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
