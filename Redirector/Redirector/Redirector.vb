@@ -19,12 +19,12 @@ Public Class Redirector
 
     Public Overridable Sub StdoutHandler(sendingProcess As Object, _
                 outLine As DataReceivedEventArgs)
-        Console.WriteLine(outLine.Data)
+        Console.Out.WriteLineAsync(outLine.Data)
     End Sub
 
     Public Overridable Sub StderrHandler(sendingProcess As Object, _
                 outLine As DataReceivedEventArgs)
-        Console.WriteLine(outLine.Data)
+        Console.Error.WriteLineAsync(outLine.Data)
     End Sub
 
     Public Function PassArguments(Optional ByVal dropLeading As Integer = 1) As String
@@ -68,7 +68,7 @@ Public Class Redirector
     End Sub
     
 
-    Public Sub RedirectStdOutErr(fileName As String, args As String)
+    Public Sub RedirectStdOutErr(ByVal fileName As String, ByVal args As String)
         Me.StartInfo.FileName = fileName
         Me.StartInfo.Arguments = args
         Me.StartInfo.UseShellExecute = False
